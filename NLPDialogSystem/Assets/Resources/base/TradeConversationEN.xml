@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<base>
+<Greetings>
+  <Hello phrase=" Здравствуйте "></Hello>
+  <Hello phrase=" Привет "></Hello>
+  <Hello phrase=" Доброго времени суток "></Hello>
+  <Hello phrase= "Добрый день "></Hello>
+</Greetings>
+<GoodBye>
+  <Bye phrase=" До свидания "></Bye>
+  <Bye phrase=" Пока "></Bye>
+  <Bye phrase=" До встречи "></Bye>
+  <Bye phrase=" Увидимся "></Bye>
+</GoodBye>
+<Ansvers>
+  <Ansver type="positive" phrase=" Да "></Ansver>
+  <Ansver type="negative" phrase=" Нет "></Ansver>
+  <Ansver type="positive" phrase=" Подтверждаю "></Ansver>
+  <Ansver type="negative" phrase=" Отрицательно "></Ansver>
+  <Ansver type="positive" phrase=" Угу "></Ansver>
+  <Ansver type="negative" phrase=" Неа "></Ansver>
+</Ansvers>
+<Persons>
+  <Person id="0" Name="Торговец" Appearance="Мужчина продающий мёд." Mood="0.8">
+    <Properties>
+      <PersonPropertie id="0" Name="" Value="" Appearance=""></PersonPropertie>
+      <PersonPropertie id="0" Name="" Value="" Appearance=""></PersonPropertie>
+    </Properties>
+    <QuestionPerson id="0" personreferences="0" type="кто" text="Продавец."></QuestionPerson>
+    <QuestionPerson id="0" personreferences="0" type="какой" text="Весёлый."></QuestionPerson>
+  </Person>
+  <Person id="1" Name="Иван" Appearance="Грузчик." Mood="0.8">
+    <Properties>
+      <PersonPropertie id="0" Name="" Value="" Appearance=""></PersonPropertie>
+      <PersonPropertie id="0" Name="" Value="" Appearance=""></PersonPropertie>
+    </Properties>
+    <QuestionPerson id="0" personreferences="0" type="кто" text="Грузчик."></QuestionPerson>
+    <QuestionPerson id="0" personreferences="0" type="какой" text="Сильный."></QuestionPerson>
+    <QuestionPerson id="0" personreferences="0" type="сколько" text="Много"></QuestionPerson>
+    <QuestionPerson id="0" personreferences="0" type="который" text="Нулевой"></QuestionPerson>
+  </Person>
+</Persons>
+<Items>
+  <Item id="0" Name="банка мёда" Appearance="предположительно в ней хранится мёд.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="1" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+    <QuestionItem id="0" personreferences="0" type="что" text="Ёмкость."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какая" text="Стекляная."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+	  <QuestionItem id="0" personreferences="0" type="чья" text="моя."></QuestionItem>
+  </Item>
+  <Item id="1" Name="рубин" Appearance="Красный камень">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="12" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+	  <QuestionItem id="0" personreferences="0" type="что" text="драгоценность."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какой" text="маленький."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+	  <QuestionItem id="0" personreferences="0" type="чей" text="мой."></QuestionItem>
+  </Item>
+  <Item id="2" Name="доска" Appearance="Сделана из дерева.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="2" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+	  <QuestionItem id="0" personreferences="0" type="что" text="стройматериал."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какая" text="деревянная."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+	  <QuestionItem id="0" personreferences="0" type="чья" text="моя."></QuestionItem>
+  </Item>
+  <Item id="3" Name="кирка" Appearance="Для работы.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="3" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+	  <QuestionItem id="0" personreferences="0" type="что" text="инструмент."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какая" text="железная."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+	  <QuestionItem id="0" personreferences="0" type="чья" text="моя."></QuestionItem>
+  </Item>
+  <Item id="4" Name="верёвка" Appearance="Сделана из чего то.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+    <QuestionItem id="0" personreferences="0" type="что" text="иснтрумент."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какая" text="мягкая."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="чья" text="моя."></QuestionItem>
+  </Item>
+  <Item id="5" Name="перо" Appearance="Птица потеряла.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+    <QuestionItem id="0" personreferences="0" type="что" text="материал."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какое" text="мягкое."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="чьё" text="моя."></QuestionItem>
+  </Item>
+  <Item id="6" Name="зелёный мешок" Appearance="В нем что то есть.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+    <QuestionItem id="0" personreferences="0" type="что" text="предмет."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какой" text="большой."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="чей" text="моя."></QuestionItem>
+  </Item>
+  <Item id="7" Name="синий мешок" Appearance="В нем что то есть.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+    <QuestionItem id="0" personreferences="0" type="что" text="предмет."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какой" text="маленький."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="чей" text="моя."></QuestionItem>
+  </Item>
+  <Item id="8" Name="яблоко" Appearance="Росло на дереве.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+    <QuestionItem id="0" personreferences="0" type="что" text="фрукт."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какое" text="спелое."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="чьё" text="моя."></QuestionItem>
+  </Item>
+  <Item id="9" Name="кукуруза" Appearance="сорок третий размер.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+    <QuestionItem id="0" personreferences="0" type="что" text="растение."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какая" text="мягкая."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="чья" text="моя."></QuestionItem>
+  </Item>
+  <Item id="10" Name="мясо" Appearance="Зверинное.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+    <QuestionItem id="0" personreferences="0" type="что" text="продукт."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какое" text="свежее."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="чьё" text="моя."></QuestionItem>
+  </Item>
+  <Item id="11" Name="лейка" Appearance="Садовый инструмент.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+    <QuestionItem id="0" personreferences="0" type="что" text="инструмент."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какая" text="железная."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="чья" text="моя."></QuestionItem>
+  </Item>
+  <Item id="12" Name="лимон" Appearance="Кислый.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+    <QuestionItem id="0" personreferences="0" type="что" text="фрукт."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какой" text="желтый."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="чей" text="моя."></QuestionItem>
+  </Item>
+  <Item id="13" Name="лопата" Appearance="сорок третий размер.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+    <QuestionItem id="0" personreferences="0" type="что" text="инструмент."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какая" text="железная."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="чья" text="моя."></QuestionItem>
+  </Item>
+  <Item id="14" Name="сковорода" Appearance="сорок третий размер.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+    <QuestionItem id="0" personreferences="0" type="что" text="утварь."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какая" text="грязная."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="чья" text="моя."></QuestionItem>
+  </Item>
+  <Item id="15" Name="котел" Appearance="сорок третий размер.">
+    <Properties>
+      <ItemPropertie id="0" Name="Цена" Value="" Appearance=""></ItemPropertie>
+      <ItemPropertie id="0" Name="Размер" Value="" Appearance=""></ItemPropertie>
+    </Properties>
+    <QuestionItem id="0" personreferences="0" type="что" text="утварь."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="какой" text="грязный."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="сколько" text="Много"></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="который" text="Нулевой."></QuestionItem>
+    <QuestionItem id="0" personreferences="0" type="чей" text="моя."></QuestionItem>
+  </Item>
+</Items>
+<Locations>
+  <Location id="0" Name="Магазин" Appearance="Здесь выкладывают товар для продажи." positionX="1" positionY="1"></Location>
+</Locations>
+<Actions>
+  <Action id="0" Name="дайте" Appearance="" personreferences="0/1" itemreferences="0/1/2/3">
+    <QuestionAction id="0" personreferences="0" type="когда" text="тогда"></QuestionAction>
+    <QuestionAction id="0" personreferences="0" type="где" text="там"></QuestionAction>
+    <QuestionAction id="0" personreferences="0" type="куда" text="туда"></QuestionAction>
+    <QuestionAction id="0" personreferences="0" type="откуда" text="от туда"></QuestionAction>
+    <QuestionAction id="0" personreferences="0" type="почему" text="потому"></QuestionAction>
+    <QuestionAction id="0" personreferences="0" type="зачем" text="за тем"></QuestionAction>
+    <QuestionAction id="0" personreferences="0" type="как" text="так"></QuestionAction>
+    <QuestionAction id="1" personreferences="0" type="когда" text=""></QuestionAction>
+    <QuestionAction id="1" personreferences="0" type="где" text=""></QuestionAction>
+    <QuestionAction id="1" personreferences="0" type="куда" text=""></QuestionAction>
+    <QuestionAction id="1" personreferences="0" type="откуда" text=""></QuestionAction>
+    <QuestionAction id="1" personreferences="0" type="почему" text=""></QuestionAction>
+    <QuestionAction id="1" personreferences="0" type="зачем" text=""></QuestionAction>
+    <QuestionAction id="1" personreferences="0" type="как" text=""></QuestionAction>
+  </Action>
+  <Action id="1" Name="покупайте" Appearance="" personreferences="" itemreferences="">
+    <QuestionAction id="0" personreferences="0" type="когда" text="сейчас"></QuestionAction>
+    <QuestionAction id="0" personreferences="0" type="где" text="у меня"></QuestionAction>
+    <QuestionAction id="0" personreferences="0" type="куда" text=""></QuestionAction>
+    <QuestionAction id="0" personreferences="0" type="откуда" text=""></QuestionAction>
+    <QuestionAction id="0" personreferences="0" type="почему" text="товар хорош"></QuestionAction>
+    <QuestionAction id="0" personreferences="0" type="зачем" text="вам это нужно"></QuestionAction>
+    <QuestionAction id="0" personreferences="0" type="как" text="просто"></QuestionAction>
+  </Action>
+</Actions>  
+<Events>
+  <!--- <Event id="0" name="chapter1" Appearance="">
+    <Actor id="-1" name="default" type="default">
+      
+    </Actor>
+    <Actor id="0" name="Торговец" type="персонаж">
+      <say id="0.1" move="1" >Покупайте наш товар.</say>
+    </Actor>
+    <Actor id="1" name="Покупатель" type="игрок">
+      <say id="1.1" move="2.2" >positive</say>
+      <say id="1.2" move="4" >negative</say>
+      <say id="1.3" move="2" >hello</say>
+      <say id="1.4" move="2" >Давно не виделись</say>
+      <say id="1.5" move="4" >Я пошол.</say>
+    </Actor>
+    <Actor id="2" name="Торговец" type="персонаж">
+      <say id="2.1" move="3" >Добрый день.</say>
+      <say id="2.2" move="3" >Вот выбирайте.</say>
+      <say id="2.3" move="3" >Что вы хотите?</say>
+    </Actor>
+    <Actor id="3" name="Покупатель" type="игрок">
+      <say id="1.1" move="5" >action</say>
+      <say id="1.2" move="5.2" >negative</say>
+      <say id="1.3" move="4" >bye</say>
+      <say id="1.3" move="5.2" >question</say>
+    </Actor>
+    <Actor id="4" name="Торговец" type="персонаж">
+      <say id="4.1" move="-1" >Хорошего дня.</say>
+    </Actor>
+    <Actor id="5" name="Торговец" type="персонаж">
+      <say id="5.1" move="7" >Спасибо за покупку.</say>
+	  <say id="5.2" move="7" >Могу я вам еще что нибудь предложить?</say>
+    </Actor>
+    <Actor id="7" name="Покупатель" type="игрок">
+      <say id="7.1" move="2.3" >positive</say>
+      <say id="7.2" move="4" >negative</say>
+      <say id="7.3" move="4" >bye</say>
+      <say id="7.3" move="6" >question</say>
+    </Actor>
+  </Event>
+  <Event id="1" name="chapter2" Appearance="">
+      <Actor id="-1" name="default" type="default">
+      
+    </Actor>
+    <Actor id="0" name="Торговец" type="персонаж">
+      <say id="0.1" move="1" >Start</say>
+    </Actor>
+    <Actor id="1" name="Покупатель" type="игрок">
+      <say id="1.1" move="2" >Da</say>
+      <say id="1.2" move="6" >Net</say>
+    </Actor>
+    <Actor id="2" name="Торговец" type="персонаж">
+      <say id="2.1" move="3" >Добрый день.</say>
+      <say id="2.2" move="3" >Вот выбирайте.</say>
+      <say id="2.3" move="3" >Что вы хотите?</say>
+    </Actor>
+    <Actor id="3" name="Покупатель" type="игрок">
+      <say id="3.1" move="4" >Da</say>
+      <say id="3.2" move="6" >Net</say>
+    </Actor>
+    <Actor id="4" name="Торговец" type="персонаж">
+      <say id="4.1" move="5" >Спасибо за покупку.</say>
+    </Actor>
+    <Actor id="5" name="Покупатель" type="игрок">
+      <say id="5.1" move="6" >By</say>
+    </Actor>
+    <Actor id="6" name="Торговец" type="персонаж">
+      <say id="6.1" move="7" >Хорошего дня.</say>
+    </Actor>
+  </Event>-->
+  <Event id="0" name="chapter1" Appearance="">
+    <Actor id="-1" name="default" type="default">
+    </Actor>
+    <Actor id="0" name="Торговец" type="персонаж">
+      <say id="0.1" move="1" >Здравствуйте!</say>
+    </Actor>
+    <Actor id="1" name="Покупатель" type="игрок">
+      <say id="1.1" move="2" >hello</say>
+      <say id="1.2" move="6" >bye</say>
+    </Actor>
+    <Actor id="2" name="Торговец" type="персонаж">
+      <say id="2.1" move="3" >Чем могу помочь?</say>
+    </Actor>
+    <Actor id="3" name="Покупатель" type="игрок">
+      <say id="3.1" move="6" >negative</say>
+      <say id="3.2" move="4" >action</say>
+	    <say id="3.3" move="4" >question</say>
+    </Actor>
+    <Actor id="4" name="Торговец" type="персонаж">
+      <say id="4.1" move="5" >Что то ещё?</say>
+    </Actor>
+    <Actor id="5" name="Покупатель" type="игрок">
+      <say id="5.1" move="2" >positive</say>
+      <say id="5.2" move="6" >negative</say>
+    </Actor>
+    <Actor id="6" name="Торговец" type="персонаж">
+      <say id="6.1" move="7" >Хорошего дня.</say>
+    </Actor>
+	  <Actor id="7" name="Покупатель" type="игрок">
+      <say id="7.1" move="-1" >bye</say>
+    </Actor>
+  </Event>
+</Events>
+</base>
+
+

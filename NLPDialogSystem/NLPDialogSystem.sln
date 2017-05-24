@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLPDialogSystem.CSharp.Plugins", "NLPDialogSystem.CSharp.Plugins.csproj", "{B1394554-4F27-1324-5F5C-7701A0CEDE2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLPDialogSystem.CSharp", "NLPDialogSystem.CSharp.csproj", "{3338241F-02FB-D577-5A39-764F97145B45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLPDialogSystem.CSharp.Editor", "NLPDialogSystem.CSharp.Editor.csproj", "{994CC1A3-8C20-C415-6E2C-F165241E3842}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1394554-4F27-1324-5F5C-7701A0CEDE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1394554-4F27-1324-5F5C-7701A0CEDE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1394554-4F27-1324-5F5C-7701A0CEDE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1394554-4F27-1324-5F5C-7701A0CEDE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3338241F-02FB-D577-5A39-764F97145B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3338241F-02FB-D577-5A39-764F97145B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3338241F-02FB-D577-5A39-764F97145B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3338241F-02FB-D577-5A39-764F97145B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994CC1A3-8C20-C415-6E2C-F165241E3842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994CC1A3-8C20-C415-6E2C-F165241E3842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994CC1A3-8C20-C415-6E2C-F165241E3842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994CC1A3-8C20-C415-6E2C-F165241E3842}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
