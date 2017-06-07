@@ -105,10 +105,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 948
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 711, y: 492}
+  m_MaxSize: {x: 18006, y: 14042}
   vertical: 1
-  controlID: 22
+  controlID: 34
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,10 +129,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 948
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 711, y: 492}
+  m_MaxSize: {x: 18006, y: 14042}
   vertical: 0
-  controlID: 23
+  controlID: 35
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,10 +153,10 @@ MonoBehaviour:
     y: 0
     width: 1415
     height: 948
-  m_MinSize: {x: 436, y: 492}
-  m_MaxSize: {x: 14006, y: 14042}
+  m_MinSize: {x: 434, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 24
+  controlID: 36
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 25
+  controlID: 37
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,10 +252,10 @@ MonoBehaviour:
     y: 495
     width: 1415
     height: 453
-  m_MinSize: {x: 436, y: 271}
-  m_MaxSize: {x: 14006, y: 10021}
+  m_MinSize: {x: 434, y: 271}
+  m_MaxSize: {x: 14004, y: 10021}
   vertical: 0
-  controlID: 81
+  controlID: 112
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,8 +274,8 @@ MonoBehaviour:
     y: 0
     width: 926
     height: 453
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -498,11 +498,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.27536827, y: -0.013545902, z: 0.0038806004, w: -0.9612355}
     speed: 2
-    m_Value: {x: -0.27536827, y: -0.013545902, z: 0.0038806002, w: -0.9612355}
+    m_Value: {x: -0.27536827, y: -0.013545902, z: 0.0038806004, w: -0.9612355}
   m_Size:
-    m_Target: 146.79715
+    m_Target: 252.27948
     speed: 2
-    m_Value: 146.79715
+    m_Value: 252.27948
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -540,24 +540,24 @@ MonoBehaviour:
     width: 327
     height: 474
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 66430000
-    m_LastClickedID: 17254
-    m_ExpandedIDs: 0486ffff00000000
+    scrollPos: {x: 0, y: 119}
+    m_SelectedIDs: 8e7f0000
+    m_LastClickedID: 32654
+    m_ExpandedIDs: c661fbffcc61fcffda54fdff0455fdff0a55fdff0825feff9cd5feff94d7feff00000000707e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Cylinder
+      m_OriginalName: Cylinder
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -306862
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -704,19 +704,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Prefabs/Materials
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs/Materials
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\GitHub\NaturalLanguageDialogSystemUnity\NaturalLanguageDialogSystemUnity\unity-game-mix-update\unity-game-mix-update
+  m_LastProjectPath: "D:\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442\\unity-game-mix-update\\unity-game-mix-update"
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5e3f0000
-    m_LastClickedID: 16222
-    m_ExpandedIDs: 000000005e3f0000e440000034410000a0530000a253000000ca9a3bffffff7f
+    m_SelectedIDs: 8e7a0000
+    m_LastClickedID: 31374
+    m_ExpandedIDs: 367800002a790000707b00008c7c00001e7d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -744,7 +744,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005e3f0000e440000034410000a0530000a2530000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: e01b0000ee1b0000e41b0000021d00005a1c00004e1c0000e61b0000661c0000761c00008c1c0000581c0000541c0000ea1d00007c1c00002a1c0000e4e8ffffda1b0000de1b0000121c0000f01b0000ec1b00005c66fbffba2500003c2400002e26000038240000402400004a2400002c2d0000022700005e230000b268ffffd0230000ec3c0000d62d0000f62e0000e8250000dc250000062a00006a2f0000f4280000c0300000be340000682c0000527300009474000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

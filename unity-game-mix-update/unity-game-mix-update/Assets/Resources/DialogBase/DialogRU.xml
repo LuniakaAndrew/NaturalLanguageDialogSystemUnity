@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<base>
+<Events>
+    <Event id="0" name="chapter1" Appearance="">
+      <Actor id="-1" name="default" type="default">
+      </Actor> 
+      <Actor id="0" name="Максим" type="персонаж">
+        <say id="0.1" move="1" >Малый, ты что, дурачек?.. Малый?</say>
+      </Actor>
+      <Actor id="1" name="Лёша" type="игрок">
+        <say id="1.1" move="2" >
+          Нет. Я просто так не могу.
+        </say>
+      </Actor>
+      <Actor id="2" name="Максим" type="персонаж">
+        <say id="2.1" move="3" >Пописай в бутылку. Мы отвернёмся.</say>
+      </Actor>
+    <Actor id="3" name="Егор" type="игрок">
+        <say id="3.1" move="4" >
+          Та ну, Макс. Ещё на меня попадёт.
+        </say>
+      </Actor>
+      <Actor id="4" name="Лёша" type="персонаж">
+        <say id="4.1" move="5" >…ммм</say>
+      </Actor>
+      <Actor id="5" name="Лера" type="игрок">
+        <say id="5.1" move="6" >
+          Лёша, потерпи.
+        </say>
+      </Actor>
+      <Actor id="6" name="Лёша" type="персонаж">
+          <say id="6.1" move="7" >Кристина Игоревна!... Кристина Иго-ре-в-на!</say>
+        </Actor>
+        <Actor id="7" name="Кристина Игоревна" type="персонаж">
+          <say id="7.1" move="8" >
+            ЧТО!??
+          </say>
+        </Actor>
+       <Actor id="8" name="Лёша" type="игрок">
+          <say id="8.1" move="9" >А вы бы не могли сделать остан…</say>
+      </Actor>
+      <Actor id="9" name="Максим" type="игрок">
+        <say id="9.1" move="10" >
+          НЕЕЕЕЕЕТ!
+        </say>
+      </Actor>
+      <Actor id="10" name="Кристина Игоревна" type="игрок">
+        <say id="10.1" move="11" >
+          Максим! Закрой рот! Я не слышу, что он говорит!
+        </say>
+      </Actor>
+      <Actor id="11" name="Максим" type="игрок">
+        <say id="11.1" move="12" >
+          Не закрою!
+        </say>
+      </Actor>
+      <Actor id="12" name="Кристина Игоревна" type="игрок">
+        <say id="12.1" move="13" >
+          Малый, что ты хотел?
+        </say>
+      </Actor>
+      <Actor id="13" name="Максим" type="игрок">
+        <say id="13.1" move="14" >
+          Та этот придурок хочет опять сделать остановку!
+        </say>
+      </Actor>
+      <Actor id="14" name="Лёша" type="игрок">
+          <say id="14.1" move="15">Сам ты придурок!</say>
+      </Actor>
+      <Actor id="15" name="Максим" type="игрок">
+        <say id="15.1" move="16" >
+          Ты что офигел!?
+        </say>
+      </Actor>
+      <Actor id="16" name="Егор" type="игрок">
+        <say id="16.1" move="17" >
+          оооо!
+        </say>
+      </Actor>
+      <Actor id="17" name="Лера" type="игрок">
+        <say id="17.1" move="18" >
+          Xватит! Отстань от него!
+        </say>
+      </Actor>
+      <Actor id="18" name="Егор" type="игрок">
+        <say id="18.1" move="19" >
+          [смеётся]
+        </say>
+      </Actor>
+      <Actor id="19" name="Максим" type="игрок">
+        <say id="19.1" move="20" >
+          ты шооо!
+        </say>
+      </Actor>
+      <Actor id="20" name="Кристина Игоревна" type="игрок">
+        <say id="20.1" move="21" >
+          А ну угомонились! Чёртов ребёнок! В кого ты такой…
+        </say>
+      </Actor>
+      <Actor id="21" name="Кристина Игоревна" type="игрок">
+        <say id="21.1" move="22" >
+          Егор. Твой папочка звонит!
+        </say>
+      </Actor>
+      <Actor id="22" name="Кристина Игоревна" type="игрок">
+        <say id="22.1" move="23" >
+          Да! Да, забрала их из лагеря. С, вашем сыном всё в порядке.  
+        </say>
+      </Actor>
+      <Actor id="23" name="Кристина Игоревна" type="игрок">
+        <say id="23.1" move="24" >
+          Не знаю! Как получится! Дети Додоновых тоже с нами! Всё!
+        </say>
+      </Actor>
+      <Actor id="24" name="Кристина Игоревна" type="игрок">
+        <say id="24.1" move="25" >
+          Твой отец параноик.
+        </say>
+      </Actor>
+      <Actor id="25" name="Егор" type="игрок">
+        <say id="25.1" move="26" >
+          я знаю…
+        </say>
+      </Actor>
+      <Actor id="26" name="Лера" type="игрок">
+        <say id="26.1" move="27" >
+          Там впереди заправка. Давайте остановимся?
+        </say>
+      </Actor>
+      <Actor id="27" name="Кристина Игоревна" type="игрок">
+        <say id="27.1" move="28" >
+          У меня от вас уже голова круглая.
+        </say>
+      </Actor>
+      <Actor id="28" name="Егор" type="игрок">
+        <say id="28.1" move="29" >
+          (весело) так… хэг
+        </say>
+      </Actor>
+      <Actor id="29" name="Кристина Игоревна" type="игрок">
+        <say id="29.1" move="29" >
+          Что за! … Приехали!
+        </say>
+      </Actor>
+      <Actor id="30" name="Лера" type="игрок">
+        <say id="30.1" move="31" >
+          Кристина Игоревна, что случилось?
+        </say>
+      </Actor>
+      <Actor id="30" name="Лера" type="игрок">
+        <say id="30.1" move="31" >
+          Кристина Игоревна, что случилось?
+        </say>
+      </Actor>
+      <Actor id="31" name="Кристина Игоревна" type="игрок">
+        <say id="31.1" move="32" >
+          Я задолбалась! [крикнула и вышла из машины].
+        </say>
+      </Actor>
+      <Actor id="32" name="Максим" type="игрок">
+        <say id="32.1" move="33" >
+          Мам!
+        </say>
+      </Actor>
+      <Actor id="33" name="Егор" type="игрок">
+        <say id="33.1" move="34" >
+          С твоей мамой всё в порядке?
+        </say>
+      </Actor>
+      <Actor id="34" name="Максим" type="игрок">
+        <say id="34.1" move="35" >
+          Ты вроде в туалет хотел!
+        </say>
+      </Actor>
+      <Actor id="35" name="Лёша" type="игрок">
+          <say id="35.1" move="36">уже не хочу…</say>
+      </Actor>
+      <Actor id="36" name="Лера" type="игрок">
+        <say id="36.1" move="37" >
+          Максим, а она на долго ушла?
+        </say>
+      </Actor>
+      <Actor id="37" name="Максим" type="игрок">
+        <say id="37.1" move="38" >
+          Откуда мне знать! … Вы можете хоть немного не быть такими малолетками?
+        </say>
+      </Actor>
+      <Actor id="38" name="Лера" type="игрок">
+        <say id="38.1" move="39" >
+          а ты что сильно большой?
+        </say>
+      </Actor>
+      <Actor id="39" name="Максим" type="игрок">
+        <say id="39.1" move="40" >
+          отвечаешь, как девятилетняя.
+        </say>
+      </Actor>
+      <Actor id="40" name="Егор" type="игрок">
+        <say id="40.1" move="41" >
+          Та замолчите! Макс, она просто ушла в сторону города!
+        </say>
+      </Actor>
+      <Actor id="41" name="Лера" type="игрок">
+        <say id="41.1" move="42" >
+          Она что нас здесь бросила?!
+        </say>
+      </Actor>
+      <Actor id="43" name="Егор" type="игрок">
+        <say id="43.1" move="44" >
+          Позвони ей.
+        </say>
+      </Actor>
+      <Actor id="44" name="Максим" type="игрок">
+        <say id="44.1" move="45" >
+          [набирает номер. Начинает звонить телефон.]
+        </say>
+      </Actor>
+      <Actor id="45" name="Лёша" type="игрок">
+          <say id="45.1" move="46">Она забыла его…</say>
+      </Actor>
+      <Actor id="47" name="Максим" type="игрок">
+        <say id="47.1" move="48" >
+          Да мы видим, тормоз!
+        </say>
+      </Actor>
+      <Actor id="48" name="Лера" type="игрок">
+        <say id="48.1" move="49" >
+          Не называй моего брата тормозом!
+        </say>
+      </Actor>
+    </Event>
+
+    <Event id="0" name="pastchapter1" Appearance="">
+      <Actor id="-1" name="default" type="default">
+      </Actor> 
+      <Actor id="0" name="Максим" type="персонаж">
+        <say id="0.1" move="1" >Нам здесь делать нечего.</say>
+      </Actor>
+  </Event>
+  <Event id="0" name="futurechapter2" Appearance="">
+      <Actor id="-1" name="default" type="default">
+      </Actor> 
+      <Actor id="0" name="Лёша" type="персонаж">
+        <say id="0.1" move="1" >Мы еще не сделали нужные дела.</say>
+      </Actor>
+  </Event>
+</Events>
+</base>
+
+
